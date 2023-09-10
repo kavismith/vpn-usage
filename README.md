@@ -33,7 +33,7 @@ In this tutorial, we will be signing into ProptonVPN and exploring the web. <br 
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN with the username and password you created when you was signing up for your free account.
+After you have downloaded ProtonVPN onto your Remote Desktop, sign into Proton VPN with the username and password you created when you was signing up for your free account.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton V
 
 </p>
 <p>
-Connect to a VPN taht is outside of your country. For the example above I connceted to a Japan VPN server. Now taht you are conncet, instead of your traffic goingstraigh to the its orginal azzure VM location; it's going to go to your Proton VPN server.
+Connect to a VPN taht is outside of your country. For the example above I connceted to a Japan VPN server. Now that you are conncet, instead of your traffic going straight to the its orginal azzure VM location; it's going to go to your Proton VPN server.
 </p>
 
 
@@ -76,7 +76,7 @@ Go to whatismyipadress.com to check the IPv4 adress for your new VPN connection.
 
 </p>
 <p>
-Pull up your web browser and go to www.google.com. Now, you wee see that your web page will be in Japanese whci is really cool. So, we connected to a VM(virtual Machine) from the states, which had a locale in India and from that VM we connected to a VPN that has a locale in Japan. Now, all of our browsing has a locale from Japan
+Pull up your web browser and go to www.google.com. Now, you will see that your web page will be in Japanese which is really cool. So, we connected to a VM(virtual Machine) from the states, which had a locale in India and from that VM we connected to a VPN that has a locale in Japan. Now, all of our browsing has a locale from Japan
 </p>
 <br />
 
