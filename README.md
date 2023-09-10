@@ -1,11 +1,12 @@
 <h1>VPN Usage</h1>
-In this tutorial, we will be exploring through Proton VPN<br />
+In this tutorial, we will be signing into ProptonVPN and exploring the web. <br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Remote Desktop
 - Proton VPN
+- Web
   
 
 
@@ -13,11 +14,13 @@ In this tutorial, we will be exploring through Proton VPN<br />
 
 - Remote Desktop
 - Proton VPN
+- Web
 
 <h2>High-Level Steps</h2>
 
 - Sign into Proton VPN
-- Create Resource Group
+- Connect to a VPN outside of your Country
+- Explore different urls on the web browser
 
 
 
@@ -30,12 +33,12 @@ In this tutorial, we will be exploring through Proton VPN<br />
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN wit the username and password you created when you was signing up for your free account.
+After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN with the username and password you created when you was signing up for your free account.
 </p>
 <br />
 
 
-<h2>Create Yuor Microsoft Azure VM(Virtual Machine)</h2>
+<h2>Connect to a VPN</h2>
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/3e15d571-f2e9-42c2-be7c-1149155408c8)
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/ea5ffb00-c008-491f-8951-c75705a77e4a)
@@ -44,11 +47,11 @@ After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton V
 
 </p>
 <p>
-Create a Subscription with Microsoft Azure account. After you Microsoft Azure is created, search in the search bar for Virtual Machine and craete a Virtual Machine for your VPN. Allow the system to create its own Resource Group. Name your VM(VPN). Change your region to another country other than the country you live in. Make sure you impage is set to Widows 10 pro. Chamge your size to 2-4 vcpus to make sure your VM run fast. Then creat create a username and passowrd so you can login to you Remote Desktop Connection(maske sure its a username and password taht you will remember). Last, check the windows license box at the end before you move on. Click next and go to the networking tab. You would see that the system automatically generated the virtual network/subnet. After you pass validation, click create. 
+Connect to a VPN taht is outside of your country. For the example above I connceted to a Japan VPN server. Now taht you are conncet, instead of your traffic goingstraigh to the its orginal azzure VM location; it's going to go to your Proton VPN server.
 </p>
 
 
-<h2>Actions and Observations</h2>
+<h2>Check your Proton VPN IPv4 address</h2>
 
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/90d69f17-9e76-433e-b383-4a0c00fc655f)
@@ -57,11 +60,11 @@ Create a Subscription with Microsoft Azure account. After you Microsoft Azure is
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN wit the username and password you created when you was signing up for your free account.
+Go to whatismyipadress.com to check the IPv4 adress for your new VPN connection. If you are already on the web page just click refesh and you will see your new IPv4 adress and country change.
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Browse teh internet</h2>
 
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/1f574730-a600-4c71-a162-7d90e7db2fd2)
@@ -73,11 +76,11 @@ After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton V
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN wit the username and password you created when you was signing up for your free account.
+Pull up your web browser and go to www.google.com. Now, you wee see that your web page will be in Japanese whci is really cool. So, we connected to a VM(virtual Machine) from the states, which had a locale in India and from that VM we connected to a VPN that has a locale in Japan. Now, all of our browsing has a locale from Japan
 </p>
 <br />
 
- <h2>Actions and Observations</h2>
+ <h2>Explore The Web</h2>
 
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/bb78592f-7b10-4c79-81e7-25f8fbdd166a)
@@ -87,11 +90,11 @@ After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton V
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN wit the username and password you created when you was signing up for your free account.
+Try going to Primevideo.com
 </p>
 <br />
 
- <h2>Actions and Observations</h2>
+ <h2>Explore The Web</h2>
 
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/f5a0c742-0c93-41b1-8178-5a44fcdc4798)
@@ -102,11 +105,11 @@ After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton V
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN wit the username and password you created when you was signing up for your free account.
+Go to www.disney.com. As you will see the url will also change to www.disney.co.jp which shows we are browsing in Japan
 </p>
 <br />
 
- <h2>Actions and Observations</h2>
+ <h2>Explore The Web</h2>
 
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/a2793c21-c904-41dd-b465-fdaf2ad62d27)
@@ -117,6 +120,6 @@ After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton V
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, Sign into Proton VPN wit the username and password you created when you was signing up for your free account.
+Go to mcdonalds.com as well. You wil see that the url changed to the local for Japan. 
 </p>
 <br />
