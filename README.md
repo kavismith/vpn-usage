@@ -33,7 +33,7 @@ In this tutorial, we will be signing into ProptonVPN and exploring the web. <br 
 
 </p>
 <p>
-After you have downloaded ProtonVPN onto your Remote Desktop, sign into Proton VPN with the username and password you created when you was signing up for your free account.
+Once you have successfully downloaded ProtonVPN onto your Remote Desktop, proceed to sign in to Proton VPN using the username and password you created during the sign-up process for your free account.
 </p>
 <br />
 
@@ -41,13 +41,16 @@ After you have downloaded ProtonVPN onto your Remote Desktop, sign into Proton V
 <h2>Connect to a VPN</h2>
 
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/3e15d571-f2e9-42c2-be7c-1149155408c8)
+Ensure that you have successfully established a VPN connection to the desired server, in this case, Japan. Once connected, your internet traffic will be routed through the Proton VPN server located in Japan.
+
+
 ![image](https://github.com/kavismith/vpn-usage/assets/143667203/ea5ffb00-c008-491f-8951-c75705a77e4a)
 
-
+Instead of your traffic going directly to its original Azure VM location, it will now pass through the Proton VPN server, providing you with the benefits of anonymity and a geographically shifted online presence. By connecting to a VPN server in a different country, you can route your internet traffic through that server, enhancing privacy and potentially accessing region-restricted content.
 
 </p>
 <p>
-Connect to a VPN taht is outside of your country. For the example above I connceted to a Japan VPN server. Now that you are conncet, instead of your traffic going straight to the its orginal azzure VM location; it's going to go to your Proton VPN server.
+
 </p>
 
 
@@ -60,7 +63,9 @@ Connect to a VPN taht is outside of your country. For the example above I connce
 
 </p>
 <p>
-Go to whatismyipadress.com to check the IPv4 adress for your new VPN connection. If you are already on the web page just click refesh and you will see your new IPv4 adress and country change.
+To verify the IPv4 address associated with your new VPN connection, follow these steps:
+
+Open a web browser and navigate to "whatismyipaddress.com." Once on the web page, you can check your IPv4 address for the new VPN connection. If you are already on the web page, simply click the "Refresh" or "Reload" button, and you will observe your IPv4 address change, along with a shift in the detected country associated with your VPN connection.
 </p>
 <br />
 
@@ -76,7 +81,7 @@ Go to whatismyipadress.com to check the IPv4 adress for your new VPN connection.
 
 </p>
 <p>
-Pull up your web browser and go to www.google.com. Now, you will see that your web page will be in Japanese which is really cool. So, we connected to a VM(virtual Machine) from the states, which had a locale in India and from that VM we connected to a VPN that has a locale in Japan. Now, all of our browsing has a locale from Japan
+Open your web browser and navigate to www.google.com. Upon doing so, you will notice that the web page is displayed in Japanese, which is a fascinating experience. This setup involves connecting to a Virtual Machine (VM) from the United States, which had a locale set to India, and from that VM, connecting to a VPN server with a locale in Japan. As a result, all of your online browsing activities now reflect a locale associated with Japan, creating a unique and immersive browsing experience.
 </p>
 <br />
 
@@ -90,7 +95,7 @@ Pull up your web browser and go to www.google.com. Now, you will see that your w
 
 </p>
 <p>
-Try going to Primevideo.com
+Give it a try by going to Primevideo.com.
 </p>
 <br />
 
@@ -105,7 +110,7 @@ Try going to Primevideo.com
 
 </p>
 <p>
-Go to www.disney.com. As you will see the url will also change to www.disney.co.jp which shows we are browsing in Japan
+Navigate to www.disney.com. You will observe that the URL changes to www.disney.co.jp, indicating that you are indeed browsing from a location in Japan.
 </p>
 <br />
 
@@ -120,6 +125,6 @@ Go to www.disney.com. As you will see the url will also change to www.disney.co.
 
 </p>
 <p>
-Go to mcdonalds.com as well. You wil see that the url changed to the local for Japan. 
+Visit mcdonalds.com, and you will notice that the URL changes to the local domain for Japan, confirming that you are browsing with a Japanese locale. 
 </p>
 <br />
